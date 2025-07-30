@@ -2,14 +2,8 @@ import sqlite3
 import streamlit as st
 import app
 # Set page config
-from tqdm import tqdm
-import nba_api.live.nba.endpoints
 import pandas as pd
 import numpy as np
-from nba_api.stats.endpoints import playbyplayv2, leaguegamefinder, commonteamroster
-from nba_api.stats.static import teams
-from sklearn.linear_model import Ridge
-import nba_on_court as noc
 from collections import defaultdict
 import time
 
