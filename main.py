@@ -379,4 +379,5 @@ st.set_page_config(
 )
 if __name__ == "__main__":
    # main()
-    app.run_app()
+   # return
+    print ("test")
