@@ -410,3 +410,9 @@ def run_app():
                 team_b_sorted[display_cols].style.format({'RAPM': '{:.2f}'}),
                 use_container_width=True
             )
+def main():
+    run_app()
+
+if __name__ == "__main__":
+    main()
+
